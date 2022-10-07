@@ -18,7 +18,7 @@ As per the Acceptance Criteria, this page contains:
 
 * Semantic HTML elements.
 
-* universal, element, and class selectors in CSS.
+* Universal, element, and class selectors in CSS.
 
 * Three colors in the design.
 
