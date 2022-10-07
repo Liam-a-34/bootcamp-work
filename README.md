@@ -5,6 +5,8 @@ The project is a landing page for a website that contains contact info, and a wa
 
 ## Basic Information
 
+This was all written from scratch, I wanted to get a better feel for it than just editing a given section of code. I did use the given examples as guides and templates for the design, and for help in places I got stuck.
+
 I own none of the rights to any of the images used (See "Resources Cited")
 
 I wanted to use a dark theme for the website, as it's my favorite color scheme for all online applications. It's easy on the eyes, and nice and smooth looking.
