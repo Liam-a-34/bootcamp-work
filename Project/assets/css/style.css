@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Body Styling */
+body {
+    position: relative;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;
+    background-color: rgb(26, 24, 24);
+    color: rgb(218, 218, 218) 
+}
+/* Aligns text to the right side of the page, ie: Quick links */
+.right-text {
+    text-align: right
+}
+/* Positions the "Welcome!" text to the left of the screen instead of with the quick links */
+#welcome-margin {
+    position: fixed;
+    left: 25px;
+    top: 2px;
+    font-size: 30px;
+}
+/* Header elements margins */
+h1,
+h2 {
+    margin: 20px;
+}
+/* Main element padding */
+main {
+    padding: 60px 0;
+}
+/* Anchor element styling */
+a {
+    text-decoration: none;
+    color: rgb(218, 218, 218)
+}
+/* Figure element margin */
+figure {
+margin-bottom: 40px
+}
+/* Frog image styling */
+#frog {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid gray;
+    box-shadow: 4px 4px rgb(39, 38, 38)
+}
+/* Aligns elements with class="center-text" to the center */
+.center-text {
+    text-align: center;
+}
+/* Header and Footer basic styling */
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: rgb(39, 38, 38);
+}
+/* List item formatting */
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+/* Fixes header to top of page and gives it a border */
+header {
+    position: fixed;
+    border-bottom: 7px solid gray;
+}
+/* Gives footer positioning and a border */
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 7px solid gray;
+    color: rgb(218, 218, 218);
+}
+/* Section element styling */
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid rgb(71, 71, 71);
+    background-color:rgb(49, 48, 48);
+}
+/* Form element styling */
+form {
+    margin: 0 auto;
+    width: 500px; 
+    padding: 10px;
+    border: 5px solid rgb(119, 119, 119);
+    border-radius: 20px;
+}
+/* Label element styling */
+label {
+    display: inline-block;
+    width: 100px;
+}
+/* Creates the text input boxes */
+input,
+textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid gray;
+}
+/* More textarea styling */
+textarea {
+    vertical-align: top;
+    height: 60px;
+}
+/* Creates style for the SEND button */
+button {
+    height: 40px;
+    width: 120px;
+    background-color: gray;
+    color: rgb(218, 218, 218);
+}
+/* Sizing and positioning for the Small Contacts Book Icon */
+#icon {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    bottom: 44px;
+    left: 7px;
+}
+/* Aligns and sizes the extra text underneath the image's caption */
+.filler-text {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
